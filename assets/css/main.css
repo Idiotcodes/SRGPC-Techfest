@@ -50,7 +50,7 @@ a a:focus {
 .visionp{
   font-family: 'Josefin Sans', sans-serif;
   margin: 0px;
-  color: rgb(14, 228, 14);
+  color: white;
   font-weight: bold;
   font-size: 20px;
 }
@@ -65,7 +65,7 @@ a a:focus {
   
 }
 ul, ol {
-  color: rgb(14, 228, 14);
+  color: white;
   margin: 0;
   font-weight: bold;
   padding: 0;
@@ -897,6 +897,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 500;
+  color: black;
 }
 .about-item .about-text p {
  color: green;
@@ -973,7 +974,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .counter-section .counter p {
-  font-size: 15px;
+  font-size: 22px;
   color: rgb(14, 228, 14);
   font-weight: 700;
   text-transform: uppercase;
@@ -2256,3 +2257,4 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-top: -65px;
   margin-left: -19px;
 }
+
