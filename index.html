@@ -51,6 +51,12 @@
           font-size: 100px;
           margin-top: 40px;
         }
+       #sree{
+        font-size: 29px;
+       }
+       #ah{
+        font-family: 'Josefin Sans', sans-serif;
+       }
         .inner-div {
             width: 900px; /* Set the width to 700px */
             margin: 0 auto; /* Center the inner-div horizontally */
@@ -68,10 +74,12 @@
 
        #pic2{
         
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-            border-radius: 50%;
+        max-width: 100%;
+        height: 625px;
+        margin-bottom: 51px;
+        border-radius: 50%;
+        width: 619px;
+        margin-top: -129px;
         
        }
         @media screen and (max-width: 900px) {
@@ -88,7 +96,7 @@
         }
        #pic2 {
             width: 400px;
-            height: 400px;
+            height: 343px;
             border-radius: 20%;
             margin-top: -80px;
         }
@@ -97,7 +105,11 @@
           height: 50px;
         }
         .inner-div h1{
-          font-size: 20px;
+          font-size: 11px;
+        }
+        #present{
+          font-size: 10px;
+          font-weight: bold;
         }
     }
     </style>
@@ -107,8 +119,8 @@
 <div class="containers" style="background-image: url('assets/img/slider/slide1.jpg');">
     <div class="inner-div">
         <img class="pic wow fadeInUp" src="assets/img/about/ab02450c-d21d-4014-bd0e-b411b7d92161_20240220_162726_0000(1).png" width="100px" height="100px">
-        <h1 class=" wow fadeInUp">SREE RAMA GOVT. POLYTECHNIC COLLEGE, THRIPRAYAR.</h1>
-        <p class=" wow fadeInUp">PRESENTS</p>            
+        <h1 id="sree" class=" wow fadeInUp">SREE RAMA GOVT. POLYTECHNIC COLLEGE, THRIPRAYAR.</h1>
+        <p id="present" class=" wow fadeInUp">PRESENTS</p>            
         <img id="pic2" class="wow bounceIn heading" data-wow-delay="1s" src="assets/img/about/logo-removebg-preview.png" width="400px" height="400px">
     </div>
 </div>
@@ -151,10 +163,10 @@
             </div>
             <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
               
-              <h5 id="ah" class="intro-title">INSTITUTION VISION</h5>
+              <h5 id="ah" class="intro-title" style="padding-top: 19px;"><u>INSTITUTION VISION</u></h5>
               <p class="visionp"> Moulding technically competent and socially responsible professionals. 
               </p><br>
-              <h5 id="ah" class="intro-title">MISSION</h5>
+              <h5 id="ah" class="intro-title"><u>MISSION</u></h5>
               <ul class="list">
                 <li> To create an excellent academic ambiance with the state of the art of infrastructure in harmony with sustainable development.</li>
                 <li> To equip the students with social and employable skills and inculcate the habit of lifelong learning.</li>
@@ -187,7 +199,7 @@
                 <div class="icon">
                   <i class="fa-solid fa-computer"></i>
                 </div>
-                <h3><a href="">COMPUTER ENGG</a></h3>
+                <h3><a href="">COMPUTER ENGINEERING</a></h3>
                 <p>Create technically competent and socially responsible computer professionals capable of working in the global evironment</p>
                 
               </div>
@@ -201,7 +213,7 @@
                 <div class="icon">
                   <i class="fa-solid fa-building"></i>
                 </div>
-                <h3><a href="">CIVIL ENGG</a></h3>
+                <h3><a href="">CIVIL ENGINEERING</a></h3>
                 <p>To be a center of excellence in Civil engineering that moulds eminent professionals with due care of societal responsibilities and sense of ethics</p>
               </div>
             </div>
@@ -213,7 +225,7 @@
                 <i class="fa-solid fa-gears"></i>
               </div>
               <div class="services-content">
-                <h3><a href="">MECHANICAL ENGG</a></h3>
+                <h3><a href="">MECHANICAL ENGINEERING</a></h3>
                 <p>Shaping technologically proficient and socially responsible mechanical engineering professionals</p>
               </div>
             </div>
@@ -225,7 +237,7 @@
                 <i class="fa-solid fa-plug"></i>
               </div>
               <div class="services-content">
-                <h3><a href="">ELECTRONICS ENGG</a></h3>
+                <h3><a href="">ELECTRONICS ENGINEERING</a></h3>
                 <p>To be recognized as the premier center in the field of electronics engineering education that produces technically competent and socially responsible professionals</p>
               </div>
             </div>
@@ -246,7 +258,7 @@
                 <i class="fa-solid fa-lightbulb"></i>
               </div>
               <div class="services-content">
-                <h3><a href="">ELECTRICAL ENGG</a></h3>
+                <h3><a href="">ELECTRICAL & ELECTRONICS ENGINEERING </a></h3>
                 <p>Moulding technically competent and socially responsible Electrical and Electronics engineers.
                 </p>
               </div>
@@ -320,7 +332,7 @@
             <div class="about-item">
               <a href="mech.html"><img class="img-fluid" src="assets/img/about/mech.jpg" alt=""></a>
               <div class="about-text">
-                <a class="link" href="mech"><h3>MECHANICAL ENGINEERING</h3></a>
+                <a class="link" href="mech.html"><h3>MECHANICAL ENGINEERING</h3></a>
                 
                 
               </div>
@@ -340,7 +352,7 @@
             <div class="about-item">
               <a href="eee.html"><img class="img-fluid" src="assets/img/about/elec.jpg" alt=""></a>
               <div class="about-text">
-                <a class="link" href="eee.html"><h3>ELECTRICAL ENGINEERING</h3></a>
+                <a class="link" href="eee.html"><h3>ELECTRICAL & ELECTRONICS ENGINEERING</h3></a>
                
                 
               </div>
@@ -490,6 +502,9 @@
             width: 200px;
             height: 200px;
           }
+          .acin{
+            color: white;
+          }
         </style>
         
           <div id="foot" class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
@@ -505,7 +520,7 @@
             <div class="widget">
               <h5 class="widget-title">SOCIAL CONNECTION</h5>
               <ul class="footer-social">
-                <li><a class="facebook" href="https://www.facebook.com/srgptc/photos_by"><i class="lni-facebook-filled"></i></a></li>
+                <li><a class="facebook" href="https://www.facebook.com/srgptc/"><i class="lni-facebook-filled"></i></a></li>
                 <li><a class="twitter" href="https://www.instagram.com/srgptc/?igsh=MTl0MzJ5bW9sdnE0ZA%3D%3D"><i class="fa-brands fa-instagram"></i></a></li>
                 
               </ul>
@@ -515,7 +530,7 @@
               
                 <p ><i class="fa-solid fa-phone"></i> 04872391239</p>
                <p class="gamil"><i class="fa-regular fa-envelope"></i> srpolyoffice@gmail.com</p>
-               <p class="web"><i class="fa-solid fa-globe"></i> www.sreeramapoly.ac.in</p>
+               <p class="web"><i class="fa-solid fa-globe"></i> <a class="acin" href="http://sreeramapoly.ac.in/">www.sreeramapoly.ac.in</a> </p>
            
             </div>
 
@@ -530,7 +545,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="site-info">
-              <p>© Designed and Developed by <a href="http://uideck.com" rel="nofollow">AAAJ</a></p>
+              <p>© Designed and Developed by Computer Department Students <a  href="http://uideck.com" rel="nofollow">AAAJ</a></p>
             </div>      
           </div>
         </div>
