@@ -48,11 +48,11 @@ a a:focus {
 }
 
 .visionp{
-  font-family: 'Josefin Sans', sans-serif;
+  
   margin: 0px;
   color: white;
  
-  font-size: 20px;
+  font-size: 18px;
 }
 .btnn{
   
@@ -69,8 +69,8 @@ ul, ol {
   margin: 0;
  
   padding: 0;
-  font-size: 20px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+ 
 }
 
 .list ul li, ol li {
